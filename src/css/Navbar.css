@@ -1,0 +1,158 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+:root {
+  --darkmatter: #34495e;
+  --darkermatter: #2c3e50;
+  --greenapple: #2ecc71;
+  --greyapple: #ecf0f1;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar, .nav-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+header{
+  background-color: white !important;
+  color: black !important;
+}
+header a{
+  background-color: white !important;
+  color: black !important;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333 !important;
+  padding: 0.5rem 1rem;
+}
+
+.nav-brand {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 10px;
+  height: 50px;
+}
+
+.nav-menu {
+  display: flex;
+}
+
+.nav-item {
+  margin-left: 20px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.nav-link:hover {
+  color: #ccc;
+}
+
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.hamburger {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background: #fff;
+  position: relative;
+}
+
+.hamburger::before, .hamburger::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 3px;
+  background: #fff;
+  top: -8px;
+}
+
+.hamburger::after {
+  top: 8px;
+}
+
+@media (max-width: 768px) {
+  .nav-menu {
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    display: none;
+  }
+
+  .nav-menu.expanded {
+    display: flex;
+  }
+
+  .nav-item {
+    margin-bottom: 1rem;
+    margin-left: 0;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+}
+
+
+
+.content {
+  align-content: space-evenly;
+  display: grid;
+  grid-auto-flow: column;
+  place-items: center;
+}
+
+.css-17o22dy-MuiAvatar-root{
+
+background-color: #0b5986 !important;
+}
+.MuiBox-root button{
+  width: auto !important;
+}
+.cart-badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 12px;
+}
+
+
+.MuiBox-root{
+  gap: 10px;
+}
