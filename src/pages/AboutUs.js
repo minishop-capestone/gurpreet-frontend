@@ -2,25 +2,26 @@ import React from 'react';
 
 const AboutUs = () => {
   const teamMembers = [
+    const teamMembers = [
     {
       name: 'Dhruv',
-      image: 'https://spacema-dev.com/elevate/assets/images/team/1.jpg',
+      image: './1.jpg',
     },
     {
       name: 'Gurpreet',
-      image: 'https://spacema-dev.com/elevate/assets/images/team/4.jpg',
+      image: './2.jpg',
     },
     {
-      name: 'Sukhbeer',
-      image: 'https://spacema-dev.com/elevate/assets/images/team/3.jpg',
+      name: 'Sukhbir',
+      image: './3.jpg',
     },
     {
       name: 'Kunal ',
-      image: 'https://spacema-dev.com/elevate/assets/images/team/2.jpg',
+      image: './4.jpg',
     },
     {
       name: 'Rutvik',
-      image: 'https://spacema-dev.com/elevate/assets/images/team/5.jpg',
+      image: './5.jpg',
     }
   ];
 
