@@ -1,8 +1,7 @@
 import React from 'react';
 
 const AboutUs = () => {
-  const teamMembers = [
-    const teamMembers = [
+ const teamMembers = [
     {
       name: 'Dhruv',
       image: './1.jpg',
